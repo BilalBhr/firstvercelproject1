@@ -53,8 +53,8 @@
 </header>
 
 <nav>
-  <a href="Atelier.php">Accueil</a>
-  <a href="">À propos</a>
+  <a href="Atelier1.php">Atelier1</a>
+  <a href="Atelier2.php">Atelier2</a>
   <a href="">Projets</a>
   <a href="">Contact</a>
 </nav>
