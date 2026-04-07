@@ -53,7 +53,7 @@
 </header>
 
 <nav>
-  <a href="">Accueil</a>
+  <a href="Atelier.php">Accueil</a>
   <a href="">À propos</a>
   <a href="">Projets</a>
   <a href="">Contact</a>
@@ -63,7 +63,7 @@
   <h2>À propos de moi</h2>
   <p>Je suis un développeur web passionné par la création de sites modernes et performants.</p>
 </section>
-<a href="Atelier.php">ex</a>
+
 
 
 <section id="projects">
