@@ -63,6 +63,8 @@
   <h2>À propos de moi</h2>
   <p>Je suis un développeur web passionné par la création de sites modernes et performants.</p>
 </section>
+<a href="Atelier.php">ex</a>
+
 
 <section id="projects">
   <h2>Mes projets</h2>
