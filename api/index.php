@@ -53,9 +53,9 @@
 </header>
 
 <nav>
-  <a href="Atelier1.php">Atelier1</a>
-  <a href="Atelier2.php">Atelier2</a>
-  <a href="">Projets</a>
+  <a href="atelier1.php">Accueil</a>
+  <a href="atelire2.php">À propos</a>
+  <a href="atelier3.php">atelier3</a>
   <a href="">Contact</a>
 </nav>
 
@@ -63,8 +63,6 @@
   <h2>À propos de moi</h2>
   <p>Je suis un développeur web passionné par la création de sites modernes et performants.</p>
 </section>
-
-
 
 <section id="projects">
   <h2>Mes projets</h2>
