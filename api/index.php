@@ -274,7 +274,7 @@
               PDF
             </a>
 
-            <a href="https://github.com/" class="btn github" target="_blank">
+            <a href="atelier1" class="btn github" target="_blank">
               <i class="fa-brands fa-github"></i>
               GitHub
             </a>
@@ -306,7 +306,7 @@
               PDF
             </a>
 
-            <a href="https://github.com/" class="btn github" target="_blank">
+            <a href="Atelier2" class="btn github" target="_blank">
               <i class="fa-brands fa-github"></i>
               GitHub
             </a>
@@ -338,7 +338,7 @@
               PDF
             </a>
 
-            <a href="https://github.com/" class="btn github" target="_blank">
+            <a href="atelier3" class="btn github" target="_blank">
               <i class="fa-brands fa-github"></i>
               GitHub
             </a>
