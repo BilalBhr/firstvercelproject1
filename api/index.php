@@ -370,7 +370,7 @@
               PDF
             </a>
 
-            <a href="https://github.com/" class="btn github" target="_blank">
+            <a href="" class="btn github" target="_blank">
               <i class="fa-brands fa-github"></i>
               GitHub
             </a>
@@ -402,7 +402,7 @@
               PDF
             </a>
 
-            <a href="https://github.com/" class="btn github" target="_blank">
+            <a href="" class="btn github" target="_blank">
               <i class="fa-brands fa-github"></i>
               GitHub
             </a>
@@ -434,7 +434,7 @@
               PDF
             </a>
 
-            <a href="https://github.com/" class="btn github" target="_blank">
+            <a href="" class="btn github" target="_blank">
               <i class="fa-brands fa-github"></i>
               GitHub
             </a>
