@@ -370,7 +370,7 @@
               PDF
             </a>
 
-            <a href="" class="btn github" target="_blank">
+            <a href="atelier4" class="btn github" target="_blank">
               <i class="fa-brands fa-github"></i>
               GitHub
             </a>
