@@ -274,7 +274,7 @@
               PDF
             </a>
 
-            <a href="atelier1.php" class="btn github" target="_blank">
+            <a href="atelier1" class="btn github" target="_blank">
               <i class="fa-brands fa-github"></i>
               GitHub
             </a>
