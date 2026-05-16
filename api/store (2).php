@@ -47,8 +47,6 @@
   }
   .btn-logout { color: #aac4a0; font-size: 0.85rem; text-decoration: none; padding: 6px 12px; border: 1px solid #2a4a2a; border-radius: 6px; transition: all 0.2s; }
   .btn-logout:hover { color: var(--red); border-color: var(--red); }
-
-
   .login-wrap { min-height: calc(100vh - 62px); display: flex; align-items: center; justify-content: center; padding: 20px; }
   .login-box {
     background: var(--card); border: 1px solid var(--border); border-radius: 20px;
@@ -83,7 +81,7 @@
     overflow: hidden; transition: transform 0.22s, box-shadow 0.22s, border-color 0.22s;
   }
   .fruit-card:hover { transform: translateY(-4px); box-shadow: 0 12px 28px rgba(45,122,45,0.13); border-color: var(--lime); }
-  .fruit-img { width: 100%; height: 130px; display: flex; align-items: center; justify-content: center; font-size: 4.5rem; background: var(--light); }
+  .fruit-img { width: 100%; height: 130px; display: block; object-fit: cover; background: var(--light); }
   .fruit-body { padding: 12px 14px 14px; }
   .fruit-name { font-family: 'Syne', sans-serif; font-size: 1rem; margin-bottom: 4px; }
   .fruit-price { color: var(--lime); font-weight: 700; font-size: 1.05rem; margin-bottom: 12px; }
@@ -129,19 +127,19 @@
 class Fruit {
   public string $id;
   public string $nom;
-  public string $emoji;
+  public string $image;
   public float  $prix;
 
-  public function __construct(string $id, string $nom, string $emoji, float $prix) {
+  public function __construct(string $id, string $nom, string $image, float $prix) {
     $this->id    = $id;
     $this->nom   = $nom;
-    $this->emoji = $emoji;
+    $this->image = $image;
     $this->prix  = $prix;
   }
 
   public function getPrix():  float  { return $this->prix; }
   public function getNom():   string { return $this->nom; }
-  public function getEmoji(): string { return $this->emoji; }
+  public function getImage(): string { return $this->image; }
 }
 
 
@@ -178,15 +176,14 @@ class Panier {
 
 
 $catalogue = [
-  new Fruit('pomme',   'Pomme',   '', 3.90),
-  new Fruit('avocat',   'avocat',   '', 4.20),
-  new Fruit('banane',  'Banane',  '', 3.20),
-  new Fruit('orange',  'Orange',  '', 4.50),
-  new Fruit('fraise',  'Fraises', '', 5.90),
-  new Fruit('ananas',  'ananas',  '', 6.90),
-  new Fruit('kiwi',     'kiwi',  '',  7.90),
-  new Fruit('mangue',  'mangue',  '', 9.90),
- 
+  new Fruit('pomme',   'Pomme',   'images/pomme.jpg',   3.90),
+  new Fruit('avocat',  'Avocat',  'images/avocat.jpg',  4.20),
+  new Fruit('banane',  'Banane',  'images/banane.jpg',  3.20),
+  new Fruit('orange',  'Orange',  'images/orange.jpg',  4.50),
+  new Fruit('fraise',  'Fraises', 'images/fraise.jpg',  5.90),
+  new Fruit('ananas',  'Ananas',  'images/ananas.jpg',  6.90),
+  new Fruit('kiwi',    'Kiwi',    'images/kiwi.jpg',    7.90),
+  new Fruit('mangue',  'Mangue',  'images/mangue.jpg',  9.90),
 ];
 $index = [];
 foreach ($catalogue as $f) $index[$f->id] = $f;
@@ -218,7 +215,7 @@ if (!empty($_POST['action_add'])) {
   $qty = max(1, (int)($_POST['qty'] ?? 1));
   if (isset($index[$id])) {
     $panier->ajouter($index[$id], $qty);
-    $flash = $index[$id]->getEmoji() . ' ' . $index[$id]->getNom() . ' ajouté !';
+    $flash = $index[$id]->getNom() . ' ajouté au panier !';
   }
 }
 if (!empty($_GET['del']))   { $panier->supprimer($_GET['del']); }
@@ -283,7 +280,7 @@ $user   = $_SESSION['user'] ?? '';
     <div class="products-grid">
       <?php foreach ($catalogue as $fruit): ?>
       <div class="fruit-card">
-        <div class="fruit-img"><?= $fruit->getEmoji() ?></div>
+        <img class="fruit-img" src="<?= $fruit->getImage() ?>" alt="<?= $fruit->getNom() ?>">
         <div class="fruit-body">
           <div class="fruit-name"><?= $fruit->getNom() ?></div>
           <div class="fruit-price"><?= number_format($fruit->getPrix(), 2) ?> €<span>/kg</span></div>
@@ -316,7 +313,7 @@ $user   = $_SESSION['user'] ?? '';
           $f = $item['fruit']; $qty = $item['qty'];
         ?>
         <div class="cart-item">
-          <div class="ci-img"><?= $f->getEmoji() ?></div>
+          <div class="ci-img"><img src="<?= $f->getImage() ?>" alt="<?= $f->getNom() ?>" style="width:100%;height:100%;object-fit:cover;border-radius:8px;"></div>
           <div class="ci-info">
             <div class="ci-name"><?= $f->getNom() ?></div>
             <div class="ci-detail"><?= $qty ?> × <?= number_format($f->getPrix(), 2) ?> €</div>

@@ -306,7 +306,7 @@
               PDF
             </a>
 
-            <a href="Atelier2" class="btn github" target="_blank">
+            <a href="atelier2" class="btn github" target="_blank">
               <i class="fa-brands fa-github"></i>
               GitHub
             </a>
@@ -470,7 +470,7 @@
           <p>Projet moderne responsive et professionnel.</p>
           <div class="buttons">
             <a href="#" class="btn pdf">PDF</a>
-            <a href="store (1)" class="btn github">GitHub</a>
+            <a href="store (2)" class="btn github">GitHub</a>
           </div>
         </div>
       </div>
