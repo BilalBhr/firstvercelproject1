@@ -146,14 +146,14 @@ class Panier {
    CATALOGUE — images dans dossier images/
 ==================================================== */
 $catalogue = [
-  new Fruit('pomme',  'Pomme',   '/public/pomme.jpg',   3.90),
-  new Fruit('avocat', 'Avocat',  '/public/avocat.jpg',  4.20),
-  new Fruit('banane', 'Banane',  '/public/banane.jpg',  3.20),
-  new Fruit('orange', 'Orange',  '/public/orange.jpg',  4.50),
-  new Fruit('fraise', 'Fraises', '/public/fraise.jpg',  5.90),
-  new Fruit('ananas', 'Ananas',  '/public/ananas.jpg',  6.90),
-  new Fruit('kiwi',   'Kiwi',    '/public/kiwi.jpg',    7.90),
-  new Fruit('mangue', 'Mangue',  '/public/mangue.jpg',  9.90),
+  new Fruit('pomme',  'Pomme',   'pomme.jpg',   3.90),
+  new Fruit('avocat', 'Avocat',  'avocat.jpg',  4.20),
+  new Fruit('banane', 'Banane',  'banane.jpg',  3.20),
+  new Fruit('orange', 'Orange',  'orange.jpg',  4.50),
+  new Fruit('fraise', 'Fraises', 'fraise.jpg',  5.90),
+  new Fruit('ananas', 'Ananas',  'ananas.jpg',  6.90),
+  new Fruit('kiwi',   'Kiwi',    'kiwi.jpg',    7.90),
+  new Fruit('mangue', 'Mangue',  'mangue.jpg',  9.90),
 ];
 $index = [];
 foreach ($catalogue as $f) $index[$f->id] = $f;
