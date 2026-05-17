@@ -88,13 +88,11 @@
 <body>
 <?php
 
-/* ====================================================
-   CLASSE Fruit
-==================================================== */
+
 class Fruit {
   public string $id;
   public string $nom;
-  public string $image; // chemin image ex: images/pomme.jpg
+  public string $image; /
   public float  $prix;
 
   public function __construct(string $id, string $nom, string $image, float $prix) {
@@ -108,9 +106,7 @@ class Fruit {
   public function getImage(): string { return $this->image; }
 }
 
-/* ====================================================
-   CLASSE Panier
-==================================================== */
+
 class Panier {
   private array $items = [];
 
@@ -142,9 +138,7 @@ class Panier {
   public function vider(): void { $this->items = []; }
 }
 
-/* ====================================================
-   CATALOGUE — images dans dossier images/
-==================================================== */
+
 $catalogue = [
   new Fruit('pomme',  'Pomme',   'pomme.jpg',   3.90),
   new Fruit('avocat', 'Avocat',  'avocat.jpg',  4.20),
@@ -158,9 +152,7 @@ $catalogue = [
 $index = [];
 foreach ($catalogue as $f) $index[$f->id] = $f;
 
-/* ====================================================
-   AUTH
-==================================================== */
+
 $USERS = ['Bilal' => '1234'];
 $login_error = '';
 
@@ -177,9 +169,7 @@ if (!empty($_POST['action_login'])) {
   }
 }
 
-/* ====================================================
-   ACTIONS PANIER — tout en POST (pas de GET ?del=)
-==================================================== */
+
 if (!isset($_SESSION['panier'])) $_SESSION['panier'] = new Panier();
 $panier = $_SESSION['panier'];
 $flash  = '';
@@ -194,12 +184,12 @@ if (!empty($_POST['action_add'])) {
   }
 }
 
-// Supprimer un fruit — POST (corrige erreur 403 Vercel)
+
 if (!empty($_POST['action_del'])) {
   $panier->supprimer($_POST['del_id']);
 }
 
-// Vider le panier — POST
+
 if (!empty($_POST['action_vider'])) {
   $panier->vider();
 }
@@ -212,7 +202,7 @@ $user   = $_SESSION['user'] ?? '';
 <div class="flash"><?= htmlspecialchars($flash) ?></div>
 <?php endif; ?>
 
-<!-- HEADER -->
+
 <header>
   <a href="store.php" class="logo">E-Fruit<span>.</span></a>
   <nav>
@@ -232,7 +222,7 @@ $user   = $_SESSION['user'] ?? '';
 </header>
 
 <?php if (!$logged): ?>
-<!-- ===== LOGIN ===== -->
+
 <div class="login-wrap">
   <div class="login-box">
     <div class="logo-big">E-Fruit<span>.</span></div>
@@ -253,10 +243,9 @@ $user   = $_SESSION['user'] ?? '';
 </div>
 
 <?php else: ?>
-<!-- ===== STORE ===== -->
+
 <div class="store-layout" id="store">
 
-  <!-- PRODUITS -->
   <div>
     <div class="section-title"><i class="fas fa-store"></i> Nos Fruits Frais</div>
     <div class="products-grid">
@@ -279,7 +268,7 @@ $user   = $_SESSION['user'] ?? '';
     </div>
   </div>
 
-  <!-- PANIER -->
+
   <div id="panier-section">
     <div class="cart-box">
       <div class="section-title"><i class="fas fa-shopping-basket"></i> Mon Panier</div>
@@ -303,7 +292,7 @@ $user   = $_SESSION['user'] ?? '';
             <div class="ci-detail"><?= $qty ?> × <?= number_format($f->getPrix(), 2) ?> €</div>
           </div>
           <div class="ci-sub"><?= number_format($f->getPrix() * $qty, 2) ?> €</div>
-          <!-- SUPPRIMER en POST (corrige 403 Vercel) -->
+         
           <form method="POST" style="display:inline;">
             <input type="hidden" name="del_id" value="<?= $f->id ?>">
             <button type="submit" name="action_del" value="1" class="btn-del" title="Supprimer">
@@ -323,10 +312,10 @@ $user   = $_SESSION['user'] ?? '';
           <i class="fas fa-check-circle"></i> Passer la commande
         </button>
 
-        <!-- VIDER en POST -->
+
         <form method="POST">
           <button type="submit" name="action_vider" value="1" class="btn-vider">
-            🗑 Vider le panier
+            Vider le panier
           </button>
         </form>
 
