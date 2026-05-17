@@ -146,14 +146,14 @@ class Panier {
    CATALOGUE — images dans dossier images/
 ==================================================== */
 $catalogue = [
-  new Fruit('pomme',  'Pomme',   'images/pomme.jpg',  3.90),
-  new Fruit('avocat', 'Avocat',  'images/avocat.jpg', 4.20),
-  new Fruit('banane', 'Banane',  'images/banane.jpg', 3.20),
-  new Fruit('orange', 'Orange',  'images/orange.jpg', 4.50),
-  new Fruit('fraise', 'Fraises', 'images/fraise.jpg', 5.90),
-  new Fruit('ananas', 'Ananas',  'images/ananas.jpg', 6.90),
-  new Fruit('kiwi',   'Kiwi',    'images/kiwi.jpg',   7.90),
-  new Fruit('mangue', 'Mangue',  'images/mangue.jpg', 9.90),
+  new Fruit('pomme',  'Pomme',   '/public/pomme.jpg',   3.90),
+  new Fruit('avocat', 'Avocat',  '/public/avocat.jpg',  4.20),
+  new Fruit('banane', 'Banane',  '/public/banane.jpg',  3.20),
+  new Fruit('orange', 'Orange',  '/public/orange.jpg',  4.50),
+  new Fruit('fraise', 'Fraises', '/public/fraise.jpg',  5.90),
+  new Fruit('ananas', 'Ananas',  '/public/ananas.jpg',  6.90),
+  new Fruit('kiwi',   'Kiwi',    '/public/kiwi.jpg',    7.90),
+  new Fruit('mangue', 'Mangue',  '/public/mangue.jpg',  9.90),
 ];
 $index = [];
 foreach ($catalogue as $f) $index[$f->id] = $f;
@@ -225,7 +225,7 @@ $user   = $_SESSION['user'] ?? '';
       <i class="fas fa-shopping-basket"></i> Panier
       <span class="num"><?= $panier->getNombreFruits() ?></span>
     </div>
-    <span style="color:#aac4a0;font-size:0.85rem;">👤 <?= htmlspecialchars($user) ?></span>
+    <span style="color:#aac4a0;font-size:0.85rem;"> <?= htmlspecialchars($user) ?></span>
     <a href="store.php?logout=1" class="btn-logout"><i class="fas fa-sign-out-alt"></i> Déconnexion</a>
   </div>
   <?php endif; ?>
@@ -287,7 +287,7 @@ $user   = $_SESSION['user'] ?? '';
       <?php $items = $panier->getItems(); ?>
       <?php if (empty($items)): ?>
         <div class="cart-empty-msg">
-          <span class="big">🧺</span>
+          <span class="big"></span>
           Votre panier est vide.<br>Ajoutez des fruits !
         </div>
       <?php else: ?>
@@ -319,7 +319,7 @@ $user   = $_SESSION['user'] ?? '';
         </div>
 
         <button class="btn-order"
-          onclick="alert('✅ Commande passée !\nTotal : <?= number_format($panier->getTotal(), 2) ?> €\nMerci <?= htmlspecialchars($user) ?> 🎉')">
+          onclick="alert(' Commande passée !\nTotal : <?= number_format($panier->getTotal(), 2) ?> €\nMerci <?= htmlspecialchars($user) ?> ')">
           <i class="fas fa-check-circle"></i> Passer la commande
         </button>
 
@@ -337,6 +337,6 @@ $user   = $_SESSION['user'] ?? '';
 </div>
 <?php endif; ?>
 
-<footer>© 2025 E-Fruit — Fruits frais livrés chez vous 🍊</footer>
+
 </body>
 </html>
