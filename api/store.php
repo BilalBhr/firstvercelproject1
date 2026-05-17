@@ -92,7 +92,7 @@
 class Fruit {
   public string $id;
   public string $nom;
-  public string $image; /
+  public string $image; 
   public float  $prix;
 
   public function __construct(string $id, string $nom, string $image, float $prix) {
