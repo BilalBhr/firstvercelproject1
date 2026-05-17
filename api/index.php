@@ -470,7 +470,7 @@
           <p>Projet moderne responsive et professionnel.</p>
           <div class="buttons">
             <a href="#" class="btn pdf">PDF</a>
-            <a href="store (2)" class="btn github">GitHub</a>
+            <a href="store (3)" class="btn github">GitHub</a>
           </div>
         </div>
       </div>
