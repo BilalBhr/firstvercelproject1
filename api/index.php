@@ -552,7 +552,7 @@
           <p>Projet moderne responsive et professionnel.</p>
           <div class="buttons">
             <a href="#" class="btn pdf">PDF</a>
-            <a href="#" class="btn github">GitHub</a>
+            <a href="ATEL14" class="btn github">GitHub</a>
           </div>
         </div>
       </div>
