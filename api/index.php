@@ -530,6 +530,32 @@
           </div>
         </div>
       </div>
+      <!-- CARD 13 -->
+
+      <div class="card">
+        <img src="https://picsum.photos/500/300?random=13">
+        <div class="card-content">
+          <h3>Atelier 13</h3>
+          <p>Projet moderne responsive et professionnel.</p>
+          <div class="buttons">
+            <a href="#" class="btn pdf">PDF</a>
+            <a href="#" class="btn github">GitHub</a>
+          </div>
+        </div>
+      </div>
+      <!-- CARD 14 -->
+
+      <div class="card">
+        <img src="https://picsum.photos/500/300?random=14">
+        <div class="card-content">
+          <h3>Atelier 14</h3>
+          <p>Projet moderne responsive et professionnel.</p>
+          <div class="buttons">
+            <a href="#" class="btn pdf">PDF</a>
+            <a href="#" class="btn github">GitHub</a>
+          </div>
+        </div>
+      </div>
 
     </div>
 
