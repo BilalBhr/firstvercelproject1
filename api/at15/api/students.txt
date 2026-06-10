@@ -1,0 +1,8 @@
+TDM;201;Tanger;http://localhost:81/Students_MVC/public/images/pho3.jpg
+TDM;202;Tanger;http://localhost:81/Students_MVC/public/images/pho5.jpg
+TDM;203;Tanger;http://localhost:81/Students_MVC/public/images/pho5.jpg
+TDI;201;Tanger;http://localhost:81/Students_MVC/public/images/pho4.jpg
+Suptem;201;Tanger;http://localhost:81/Students_MVC/public/images/pho4.jpg
+TDI;201;Tanger;http://localhost:81/Students_MVC/public/images/pho3.jpg
+TDM;201;casablanca;http://localhost:81/Students_MVC/public/images/pho7.jpg
+TDM;101;Tanger;http://localhost:81/Students_MVC/public/images/pho5.jpg
