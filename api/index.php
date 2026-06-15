@@ -335,7 +335,7 @@
               PDF
             </a>
 
-            <a href="atelier3" class="btn github" target="_blank">
+            <a href="https://github.com/BilalBhr/at3.git" class="btn github" target="_blank">
               <i class="fa-brands fa-github"></i>
               GitHub
             </a>
@@ -367,7 +367,7 @@
               PDF
             </a>
 
-            <a href="atelier4" class="btn github" target="_blank">
+            <a href="https://github.com/BilalBhr/at4.git" class="btn github" target="_blank">
               <i class="fa-brands fa-github"></i>
               GitHub
             </a>
@@ -399,7 +399,7 @@
               PDF
             </a>
 
-            <a href="atelier5" class="btn github" target="_blank">
+            <a href="https://github.com/BilalBhr/at5.git" class="btn github" target="_blank">
               <i class="fa-brands fa-github"></i>
               GitHub
             </a>
@@ -431,11 +431,7 @@
               PDF
             </a>
 
-            <a href="atelier6" class="btn github" target="_blank">
-              <i class="fa-brands fa-github"></i>
-              GitHub
-            </a>
-
+            
           </div>
 
         </div>
@@ -453,7 +449,7 @@
           <p>Projet moderne responsive et professionnel.</p>
           <div class="buttons">
             <a href="pdf/At7.pdf" class="btn pdf" target="_blank">PDF</a>
-            <a href="atelier7" class="btn github" target="_blank">GitHub</a>
+            <a href="https://github.com/BilalBhr/at7.git" class="btn github" target="_blank">GitHub</a>
           </div>
         </div>
       </div>
@@ -467,7 +463,7 @@
           <p>Projet moderne responsive et professionnel.</p>
           <div class="buttons">
             <a href="pdf/At8.pdf" class="btn pdf" target="_blank">PDF</a>
-            <a href="atelier8" class="btn github" target="_blank">GitHub</a>
+            <a href="https://github.com/BilalBhr/at8.git" class="btn github" target="_blank">GitHub</a>
           </div>
         </div>
       </div>
@@ -481,7 +477,7 @@
           <p>Projet moderne responsive et professionnel.</p>
           <div class="buttons">
             <a href="pdf/At9.pdf" class="btn pdf" target="_blank">PDF</a>
-            <a href="atelier9" class="btn github" target="_blank">GitHub</a>
+            <a href="https://github.com/BilalBhr/at9.git" class="btn github" target="_blank">GitHub</a>
           </div>
         </div>
       </div>
@@ -495,7 +491,7 @@
           <p>Projet moderne responsive et professionnel.</p>
           <div class="buttons">
             <a href="pdf/At10.pdf" class="btn pdf" target="_blank">PDF</a>
-            <a href="atelier10" class="btn github" target="_blank">GitHub</a>
+            <a href="https://github.com/BilalBhr/at10.git" class="btn github" target="_blank">GitHub</a>
           </div>
         </div>
       </div>
@@ -509,7 +505,7 @@
           <p>Projet moderne responsive et professionnel.</p>
           <div class="buttons">
             <a href="pdf/At11.pdf" class="btn pdf" target="_blank">PDF</a>
-            <a href="atelier11" class="btn github" target="_blank">GitHub</a>
+            <a href="https://github.com/BilalBhr/at11.git" class="btn github" target="_blank">GitHub</a>
           </div>
         </div>
       </div>
@@ -523,7 +519,7 @@
           <p>Projet moderne responsive et professionnel.</p>
           <div class="buttons">
             <a href="pdf/At12.pdf" class="btn pdf" target="_blank">PDF</a>
-            <a href="atelier12" class="btn github" target="_blank">GitHub</a>
+            <a href="https://github.com/BilalBhr/at12.git" class="btn github" target="_blank">GitHub</a>
           </div>
         </div>
       </div>
@@ -536,7 +532,7 @@
           <p>Projet moderne responsive et professionnel.</p>
           <div class="buttons">
             <a href="pdf/At13.pdf" class="btn pdf" target="_blank">PDF</a>
-            <a href="atelier13" class="btn github" target="_blank">GitHub</a>
+            <a href="https://github.com/BilalBhr/at13.git" class="btn github" target="_blank">GitHub</a>
           </div>
         </div>
       </div>
@@ -549,7 +545,7 @@
           <p>Projet moderne responsive et professionnel.</p>
           <div class="buttons">
             <a href="pdf/At14.pdf" class="btn pdf" target="_blank">PDF</a>
-            <a href="atelier14" class="btn github" target="_blank">GitHub</a>
+            <a href="https://github.com/BilalBhr/at14.git" class="btn github" target="_blank">GitHub</a>
           </div>
         </div>
       </div>
@@ -562,7 +558,7 @@
           <p>Projet moderne responsive et professionnel.</p>
           <div class="buttons">
             <a href="pdf/At15.pdf" class="btn pdf" target="_blank">PDF</a>
-            <a href="atelier15" class="btn github" target="_blank">GitHub</a>
+            <a href="https://github.com/BilalBhr/at15.git" class="btn github" target="_blank">GitHub</a>
           </div>
         </div>
       </div>
