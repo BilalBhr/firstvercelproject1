@@ -463,7 +463,7 @@
           <p>Projet moderne responsive et professionnel.</p>
           <div class="buttons">
             <a href="pdf/At8.pdf" class="btn pdf" target="_blank">PDF</a>
-            <a href="https://github.com/BilalBhr/at8.git" class="btn github" target="_blank">GitHub</a>
+            <a href="store" class="btn github" target="_blank">GitHub</a>
           </div>
         </div>
       </div>
