@@ -231,7 +231,7 @@
       <h1>Bilal Bouharrat</h1>
 
       <p>
-        Portfolio GitHub - 12 Ateliers Développement Web
+        Portfolio GitHub - Ateliers Développement Web
       </p>
 
       <button onclick="document.getElementById('portfolio').scrollIntoView()">
@@ -274,10 +274,7 @@
               PDF
             </a>
 
-            <a href="atelier1" class="btn github" target="_blank">
-              <i class="fa-brands fa-github"></i>
-              GitHub
-            </a>
+           
 
           </div>
 
