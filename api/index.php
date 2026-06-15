@@ -269,7 +269,7 @@
 
           <div class="buttons">
 
-            <a href="pdf/atelier1.pdf" class="btn pdf" target="_blank">
+            <a href="pdf/At1.pdf" class="btn pdf" target="_blank">
               <i class="fa-solid fa-file-pdf"></i>
               PDF
             </a>
@@ -298,7 +298,7 @@
 
           <div class="buttons">
 
-            <a href="pdf/atelier2.pdf" class="btn pdf" target="_blank">
+            <a href="pdf/At2.pdf" class="btn pdf" target="_blank">
               <i class="fa-solid fa-file-pdf"></i>
               PDF
             </a>
@@ -330,7 +330,7 @@
 
           <div class="buttons">
 
-            <a href="pdf/atelier3.pdf" class="btn pdf" target="_blank">
+            <a href="pdf/At3.pdf" class="btn pdf" target="_blank">
               <i class="fa-solid fa-file-pdf"></i>
               PDF
             </a>
@@ -362,7 +362,7 @@
 
           <div class="buttons">
 
-            <a href="pdf/atelier4.pdf" class="btn pdf" target="_blank">
+            <a href="pdf/At4.pdf" class="btn pdf" target="_blank">
               <i class="fa-solid fa-file-pdf"></i>
               PDF
             </a>
@@ -394,7 +394,7 @@
 
           <div class="buttons">
 
-            <a href="pdf/atelier5.pdf" class="btn pdf" target="_blank">
+            <a href="pdf/At5.pdf" class="btn pdf" target="_blank">
               <i class="fa-solid fa-file-pdf"></i>
               PDF
             </a>
@@ -426,12 +426,12 @@
 
           <div class="buttons">
 
-            <a href="pdf/atelier6.pdf" class="btn pdf" target="_blank">
+            <a href="pdf/At6.pdf" class="btn pdf" target="_blank">
               <i class="fa-solid fa-file-pdf"></i>
               PDF
             </a>
 
-            <a href="" class="btn github" target="_blank">
+            <a href="atelier6" class="btn github" target="_blank">
               <i class="fa-brands fa-github"></i>
               GitHub
             </a>
@@ -452,8 +452,8 @@
           <h3>Atelier 7</h3>
           <p>Projet moderne responsive et professionnel.</p>
           <div class="buttons">
-            <a href="#" class="btn pdf">PDF</a>
-            <a href="at7" class="btn github">GitHub</a>
+            <a href="pdf/At7.pdf" class="btn pdf" target="_blank">PDF</a>
+            <a href="atelier7" class="btn github" target="_blank">GitHub</a>
           </div>
         </div>
       </div>
@@ -466,8 +466,8 @@
           <h3>Atelier 8</h3>
           <p>Projet moderne responsive et professionnel.</p>
           <div class="buttons">
-            <a href="#" class="btn pdf">PDF</a>
-            <a href="store" class="btn github">GitHub</a>
+            <a href="pdf/At8.pdf" class="btn pdf" target="_blank">PDF</a>
+            <a href="atelier8" class="btn github" target="_blank">GitHub</a>
           </div>
         </div>
       </div>
@@ -480,8 +480,8 @@
           <h3>Atelier 9</h3>
           <p>Projet moderne responsive et professionnel.</p>
           <div class="buttons">
-            <a href="#" class="btn pdf">PDF</a>
-            <a href="at9" class="btn github">GitHub</a>
+            <a href="pdf/At9.pdf" class="btn pdf" target="_blank">PDF</a>
+            <a href="atelier9" class="btn github" target="_blank">GitHub</a>
           </div>
         </div>
       </div>
@@ -494,8 +494,8 @@
           <h3>Atelier 10</h3>
           <p>Projet moderne responsive et professionnel.</p>
           <div class="buttons">
-            <a href="#" class="btn pdf">PDF</a>
-            <a href="#" class="btn github">GitHub</a>
+            <a href="pdf/At10.pdf" class="btn pdf" target="_blank">PDF</a>
+            <a href="atelier10" class="btn github" target="_blank">GitHub</a>
           </div>
         </div>
       </div>
@@ -508,8 +508,8 @@
           <h3>Atelier 11</h3>
           <p>Projet moderne responsive et professionnel.</p>
           <div class="buttons">
-            <a href="#" class="btn pdf">PDF</a>
-            <a href="#" class="btn github">GitHub</a>
+            <a href="pdf/At11.pdf" class="btn pdf" target="_blank">PDF</a>
+            <a href="atelier11" class="btn github" target="_blank">GitHub</a>
           </div>
         </div>
       </div>
@@ -522,8 +522,8 @@
           <h3>Atelier 12</h3>
           <p>Projet moderne responsive et professionnel.</p>
           <div class="buttons">
-            <a href="#" class="btn pdf">PDF</a>
-            <a href="#" class="btn github">GitHub</a>
+            <a href="pdf/At12.pdf" class="btn pdf" target="_blank">PDF</a>
+            <a href="atelier12" class="btn github" target="_blank">GitHub</a>
           </div>
         </div>
       </div>
@@ -535,8 +535,8 @@
           <h3>Atelier 13</h3>
           <p>Projet moderne responsive et professionnel.</p>
           <div class="buttons">
-            <a href="#" class="btn pdf">PDF</a>
-            <a href="#" class="btn github">GitHub</a>
+            <a href="pdf/At13.pdf" class="btn pdf" target="_blank">PDF</a>
+            <a href="atelier13" class="btn github" target="_blank">GitHub</a>
           </div>
         </div>
       </div>
@@ -548,8 +548,21 @@
           <h3>Atelier 14</h3>
           <p>Projet moderne responsive et professionnel.</p>
           <div class="buttons">
-            <a href="#" class="btn pdf">PDF</a>
-            <a href="ATEL14" class="btn github">GitHub</a>
+            <a href="pdf/At14.pdf" class="btn pdf" target="_blank">PDF</a>
+            <a href="atelier14" class="btn github" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+      <!-- CARD 15 -->
+
+      <div class="card">
+        <img src="https://picsum.photos/500/300?random=15">
+        <div class="card-content">
+          <h3>Atelier 15</h3>
+          <p>Projet moderne responsive et professionnel.</p>
+          <div class="buttons">
+            <a href="pdf/At15.pdf" class="btn pdf" target="_blank">PDF</a>
+            <a href="atelier15" class="btn github" target="_blank">GitHub</a>
           </div>
         </div>
       </div>
